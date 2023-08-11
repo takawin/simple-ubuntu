@@ -1,0 +1,9 @@
+version: '3.9'
+
+services:
+  workspace:
+    build:
+      context: .
+    tty: true
+    volumes:
+      - ../:/home/vscode/workspace

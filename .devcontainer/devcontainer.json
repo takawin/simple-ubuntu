@@ -1,0 +1,6 @@
+{
+    "dockerComposeFile": ["docker-compose.yml"],
+    "service": "workspace", // docker-compose.ymlファイル内のserviceのどれかを指定する
+    "workspaceFolder": "/home/vscode/workspace", // コンテナに入ったときのpwdとなる
+    "remoteUser": "vscode" // 指定しないとrootユーザーになる
+}
